@@ -135,9 +135,8 @@ void initVideos(vector<Video> &vids, ifstream &ins) {
     char charTrash;
     string vidName, trash;
     int percentWatched;
-    for (int k = 0; k < 4; ++k) {
-        getline(ins, trash);
-    }
+    getline(ins, trash);
+    getline(ins, trash);
     int index = 0;
     while (getline(ins, vidName, ',')) {
         addVideo(vids, vidName);
