@@ -14,8 +14,11 @@ Directions:
 4. Run the program, and follow the directions! Make sure your input exactly matches the filename you want to open - leave off the ".csv", though.
 
 Note - in the current implementation, there are certain strict formatting requirements for our main analytics .xlsx file. Some important ones:
+
 	- empty spaces must be filled by zeros (0)
+
 	- video names cannot have spaces before/after them in the 		  cell
+
 	- data not used for analytics (dates and colors, resident 	    	  names + years, etc) must be confined to the top two rows
 
 Contact me with any other questions!
