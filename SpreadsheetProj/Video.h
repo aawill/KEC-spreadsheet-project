@@ -7,18 +7,26 @@
 
 class Video {
 public:
-    //Default constructor
     Video();
-    //Non-default constructor
+
+    // Requires: title_in is a valid video title as seen in spreadsheets - 
+    //           e.g. "Comer 1a", "Fahim 1b", etc
+    // Effects: non-default constructor for Video - sets member var title to input
     Video(std::string title_in);
 
+    // Requires: title_in is a valid video title as seen in spreadsheets - 
+    //           e.g. "Comer 1a", "Fahim 1b", etc
+    // Effects: non-default constructor for Video - sets member var title to input
     void setTitle(std::string title_in);
+
+    // Effects: returns member var title
     std::string getTitle();
 
-    //Creates an array of residents for this video, fills in names
+    // Requires: names[] is a list of all current residents, as formatted in Canvas analytics
+    // Effects: initializes names in member array residents[] to input names
     void initResidents(const std::string names[NUM_RESIDENTS]);
 
-    //Returns the resident at a given index in the array
+    // Effects: Returns the resident at a given index in member array residents[]
     Resident *(getResident(int index));
 
 private:

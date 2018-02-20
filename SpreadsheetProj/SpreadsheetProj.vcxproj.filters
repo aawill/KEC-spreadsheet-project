@@ -37,9 +37,6 @@
     <None Include="Comer 1a.csv">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="Retina analytics.csv">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="..\..\..\Desktop\2017 Retina Podcast Analytics.csv">
       <Filter>Resource Files</Filter>
     </None>

@@ -18,13 +18,24 @@ const std::string resNames[NUM_RESIDENTS] = {
 class Resident {
 public:
     Resident();
-
+    // Requires: nameIn is a name in resNames[]
+    //           percent is an int between 0 and 100 inclusive
+    // Effects:  non-default constructor for Resident - sets member vars to inputs
     Resident(std::string nameIn, int percent);
 
+    
+    // Requires: nameIn is a name in resNames[]
+    // Effects: sets member var name to input
     void setName(std::string nameIn);
+
+    // Requires: percent is an int between 0 and 100 inclusive
+    // Effects: sets member var percentWatched to input
     void setPercentWatched(int percent);
 
+    // Effects: returns member var name
     std::string getName();
+
+    // Effects: returns member var percentWatched
     int getPercentWatched();
 
 private:
