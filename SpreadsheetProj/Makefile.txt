@@ -1,2 +1,0 @@
-spreadsheet: 
-	g++ -Wall -Werror -pedantic -g --std=c++11 spreadsheet.cpp -o spreadsheet.exe
