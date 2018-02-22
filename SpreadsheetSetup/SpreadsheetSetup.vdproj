@@ -15,12 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_4CA0FE1CAE7049E89EE0913F4591A98F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_4FD26073B7574172AF9F7711B9E86A30"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -82,6 +76,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -104,26 +106,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4CA0FE1CAE7049E89EE0913F4591A98F"
-            {
-            "SourcePath" = "8:..\\..\\..\\Desktop\\KECStackWhite.ico"
-            "TargetName" = "8:KECStackWhite.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_3F1E3927DE9841A88C5C98C3BACF5690"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
         }
         "FileType"
         {
@@ -209,7 +191,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:For analyzing podcast watch data"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:_4CA0FE1CAE7049E89EE0913F4591A98F"
+        "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -337,7 +319,7 @@
             "Target" = "8:_4FD26073B7574172AF9F7711B9E86A30"
             "Folder" = "8:_DF5BBC4871CB4F87AD9D841A8E7930BD"
             "WorkingFolder" = "8:_3F1E3927DE9841A88C5C98C3BACF5690"
-            "Icon" = "8:_4CA0FE1CAE7049E89EE0913F4591A98F"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
         }
@@ -741,7 +723,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_4FD26073B7574172AF9F7711B9E86A30"
             {
-            "SourcePath" = "8:..\\Debug\\SpreadsheetProj.exe"
+            "SourcePath" = "8:..\\x64\\Debug\\SpreadsheetProj.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_3F1E3927DE9841A88C5C98C3BACF5690"
