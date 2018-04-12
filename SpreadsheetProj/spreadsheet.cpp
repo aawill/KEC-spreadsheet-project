@@ -118,7 +118,7 @@ void readVidFile(ifstream &ins, vector<Video> &vids, int &vidIndex) {
         if (isResident(resName, resIndex)) {
             // checks if watch percentage has changed
             if (vids[vidIndex].getResident(resIndex)->getPercentWatched() != stoi(percent)) {
-                cout << "Change " << resName << "'s watch percentage to " << percent << endl;
+                cout << resName << ": " << percent << "\n\n";
                 changes = true;
             }
         }
