@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SpreadsheetPython", "SpreadsheetPython\SpreadsheetPython.pyproj", "{E83E1104-6E14-421C-89E3-84F266B960F9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{70DDB68E-DAFF-44D1-98C7-D55C1E9CF36F}"
+	ProjectSection(SolutionItems) = preProject
+		SpreadsheetPython\2017 Retina Podcast Analytics.csv = SpreadsheetPython\2017 Retina Podcast Analytics.csv
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +23,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AE2F2C4A-A7A7-48F4-A3D3-AD7DB726623A}
+		SolutionGuid = {9491288A-94B6-4F1C-8593-FA9C9416EC18}
 	EndGlobalSection
 EndGlobal

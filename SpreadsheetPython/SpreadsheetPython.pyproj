@@ -5,8 +5,7 @@
     <ProjectGuid>e83e1104-6e14-421c-89e3-84f266b960f9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>main.py</StartupFile>
-    <SearchPath>
-    </SearchPath>
+    <SearchPath>..\SpreadsheetPython</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>SpreadsheetPython</Name>
